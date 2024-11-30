@@ -1,38 +1,139 @@
-.App {
+.cards { 
+  width: 100%;
+  display: flex;
+  padding-left: 60px;
+  padding-right: 60px;
+  justify-content: space-around;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid grey;
+}
+.card-body {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+h5 {
+  font-size: 20px;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.browser {
+  padding: 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.news-tags {
+  font-size: 20px;
+  color: blue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.news-tags-list {
+  display: flex;
+  gap: 20px;
+}
+
+.img-news {
+  width: 20px;
+}
+
+.news {
+  display: flex;
+  gap: 10px;
+}
+
+.news-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.widget {
+  margin-bottom: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.money {
+  display: flex;
+  gap: 10px;
+}
+
+.currency {
+  font-weight: bold;
+}
+
+.dinamic {
+  color: grey;
+}
+
+.money-list {
+  display: flex;
+  gap: 30px;
+}
+
+.tags-list {
+  display: flex;
+  gap: 20px
+}
+
+.tags {
+  text-decoration: none;
+  color: blue;
+}
+
+.search {
+  height: 45px;
+width: 800px;
+ display: flex;
+ border: 2px solid yellow;
+}
+
+.input-search {
+  border: 0;
+  flex-grow: 1;
+  outline: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.button-search {
+  border: 0;
+  background-color: yellow;
+  width: 100px;
+  height: 45px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.img-ad {
+  width: 800px;
+}
+
+.section-list {
+  display: flex;
+  gap: 40px;
+}
+
+.section {
+  width: 33%;
+}
+
+h4 {
+  color: blue;
+}
+
+.news-href {
+  text-decoration: none;
+  color:black;
 }
